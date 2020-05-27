@@ -69,7 +69,7 @@ def uneven_decreasing_maxima(x = None):
 # No. of local peaks:  0.
 def himmelblau(x = None):
     
-	if x==None:
+	if x.any()==None:
 		return None
 
 	result = 200 - (x[0]**2 + x[1] - 11)**2 - (x[0] + x[1]**2 - 7)**2
@@ -82,7 +82,7 @@ def himmelblau(x = None):
 # No. of local peaks:  2.
 def six_hump_camel_back(x = None):
 
-	if x==None:
+	if x.any()==None:
 		return None
 
 	x2 = x[0]**2
@@ -102,7 +102,7 @@ def six_hump_camel_back(x = None):
 # No. of local peaks: many
 def shubert(x = None):
 
-	if x==None:
+	if x.any()==None:
 		return None
 
 	i = 0
@@ -125,7 +125,7 @@ def shubert(x = None):
 # No. of local optima:  0.
 def vincent(x = None):
 
-	if x==None:
+	if x.any()==None:
 		return None
 
 	result = 0
@@ -142,7 +142,7 @@ def vincent(x = None):
 # No. of local peaks:  0.
 def modified_rastrigin_all(x = None):
 
-	if x==None:
+	if x.any()==None:
 		return None
 
 	result = 0
