@@ -4,7 +4,7 @@
 # Developers: Michael G. Epitropakis
 #      email: m_(DOT)_epitropakis_(AT)_lancaster_(DOT)_ac_(DOT)_uk 
 ###############################################################################
-from cfunction import *
+from cec2013.cfunction import *
 import numpy as np
 
 class CF2(CFunction):
